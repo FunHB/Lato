@@ -170,7 +170,7 @@ figure .social-type {
     font-size: 20px;
 }
 
-figure p {
+figcaption p {
     clear: both;
     color: #888;
     font-size: 15px;
