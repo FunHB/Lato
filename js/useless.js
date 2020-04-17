@@ -8,5 +8,4 @@ function active(i) {
     } else {
         hearts[i].classList.add("heart-active");
     }
-    
 }
