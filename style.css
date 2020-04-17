@@ -161,16 +161,12 @@ aside div p {
     width: 100%;
 }
 
-figure .social-type a {
+figure .social-type {
     padding-top: 10px;
     padding-right: 10px;
-    float: right;
+    float: right !important;
     color: #888;
     font-size: 20px;
-}
-
-figure .social-type a:hover {
-    color: #333;
 }
 
 figure p {
@@ -180,6 +176,7 @@ figure p {
 }
 
 footer {
+    font-size: 12px;
     text-align: center;
     clear: both;
     color: #333;
@@ -187,4 +184,8 @@ footer {
     background-size: cover;
     background-repeat: no-repeat;
     padding: 10px;
+}
+
+.heart-active {
+    color: #cd3333;
 }
