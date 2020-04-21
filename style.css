@@ -94,7 +94,7 @@
 
     aside div p {
         padding: 0 !important;
-        text-align: justify !important;
+        text-align: center !important;
         padding-bottom: 10px !important;
         padding-top: 10px !important;
     }
@@ -159,6 +159,11 @@ aside {
     position: fixed;
     float: left;
     width: 30%;
+}
+
+.social-type {
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .social-type a {
@@ -230,6 +235,10 @@ aside div p {
     width: 100%;
 }
 
+.bold {
+    font-family: Roboto-bold;
+}
+
 figure .social-type {
     padding-top: 10px;
     padding-right: 10px;
@@ -257,4 +266,8 @@ footer {
 
 .heart-active {
     color: #cd3333;
+}
+
+.fa-heart:hover {
+    cursor: pointer;
 }
